@@ -1,0 +1,237 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poiret+One'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext');
+@import url('../fonts/fonts.css');
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    color: white;
+}
+
+button, 
+.btn:focus,
+.close:focus {
+   box-shadow: none;
+   outline: none !important;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 {
+    background: url("../media/ie-screen.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* .video {
+    position: absolute;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+} */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span {
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.brand-img {
+    background: url("../media/logoPng.png") no-repeat;
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    transition: all ease-out 0.3s;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.scrolledNavbar .nav-link {
+    color: #000;
+}
+
+.nav-link {
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+/* .scrolledNavbar .nav-link:hover {
+    color: #000;
+} */
+
+.nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.scrolledNavbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.scrolledNavbar .navbar-nav .nav-link {
+    color: #000000 !important;
+    font-size: 12px;
+}
+
+.scrolledNavbar .navbar-brand span {
+    color: #000000;
+    font-size: 26px;
+}
+
+.scrolledNavbar .navbar-brand .brand-img {
+    height: 45px;
+    width: 45px;
+    background: url("../media/logoPngWhite.png") no-repeat;
+    background-size: cover;
+    transition: all ease-out 0.3s;
+}
+
+.section-2 h3 {
+    margin-bottom: 25px;
+}
+
+.section-2 p,
+.section-2 ul {
+    max-width: 800px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.section-2 ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.btn-img {
+    padding: 0;
+    margin: 30px 30px 0;
+}
+
+.btn-img img {
+    max-width: 150px;
+}
+
+.modal-pdf {
+    margin-top: -72px;
+}
+
+.section-2 .modal-body{
+   height: 80vh;
+   overflow: hidden;
+   margin-bottom: -72px;
+}
+
+.section-2,
+.section-3 {
+    padding: 60px 0;
+}
+
+.section-3 {
+    background-color: #66b2b2;
+}
+
+.section-3 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 40px;  
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.method img {
+    max-height: 100px;
+    margin: 15px 0 20px;   
+}
+
+.section-4 {
+    background-color: #e8e8e8;
+    position: relative;
+}
+
+.section-4 h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.download-btn {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.download-btn a {
+    background-color: #353030;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    transition: all ease-out 0.3s;
+}
+
+.download-btn a:hover {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all ease-out 0.3s;
+}
+
+.price-factors li {
+    margin-bottom: 10px;
+}
+
+.contacts {
+    width: 100%;
+    background-color: #ceb322;
+    padding-top: 30px;
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts ul a{
+    color: initial;
+    text-decoration: none;
+}
+
+.price-info {
+    margin-top: auto;
+}
+
+.contacts {
+    margin-top: auto;
+}
